@@ -15,9 +15,8 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                // Same substring at the start will only be typed out once, initially
                 'Max',
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                1000,
                 'Web Developer',
                 1000,
                 'Glitch Artist',
@@ -28,9 +27,8 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base  sm:text-lg mb-6 lg:text-xl">
-            I'm a Junior Front-End Developer and a Glitch Art artist. I have a strong foundation in HTML, 
-            CSS, and JavaScript, and I enjoy creating captivating user interfaces that bring designs to life.
+          <p className="text-[#ADB7BE] text-base lg:mr-1 sm:text-lg mb-6 lg:text-xl">
+            I have a strong foundation in HTML, CSS, and JavaScript, and I enjoy creating captivating user interfaces that bring designs to life.
           </p>
           <div>
             <button className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 text-white">
@@ -46,7 +44,7 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
-          <div className="rounded-full position-relative w-[200px] h-[200px] lg:w-[400px] lg:h-[400px]">
+          <div className="rounded-full position-relative w-[200px] h-[200px] lg:w-[400px] lg:h-[400px] bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 px-1 py-1">
             <Image
               src="/images/fotocv2.jpeg"
               alt="hero image"

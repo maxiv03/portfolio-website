@@ -46,7 +46,7 @@ const HeroSection = () => {
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
           <div className="rounded-full position-relative w-[200px] h-[200px] lg:w-[400px] lg:h-[400px] bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 px-1 py-1">
             <Image
-              src="/images/fotocv2.jpeg"
+              src="/images/hero-image.png"
               alt="hero image"
               width={0}
               height={0}

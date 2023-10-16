@@ -9,7 +9,7 @@ const HeroSection = () => {
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#d5af8b] via-[#ed5675] to-[#502540]">
+            <span className="text-transparent bg-clip-text bg-gradient-to-b from-FIRST_COLOR via-SECOND_COLOR to-THIRD_COLOR">
               Hello, I'm{" "}
             </span>
             <br></br>
@@ -31,12 +31,12 @@ const HeroSection = () => {
             I have a strong foundation in HTML, CSS, and JavaScript, and I enjoy creating captivating user interfaces that bring designs to life.
           </p>
           <div>
-            <button className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-b from-[#d5af8b] via-[#ed5675] to-[#502540] hover:drop-shadow-[0_2px_20px_rgba(88,33,65,0.80)] text-white">
+            <button className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-b from-FIRST_COLOR via-SECOND_COLOR to-THIRD_COLOR hover:drop-shadow-[0_1px_20px_rgba(176,108,169,0.80)] text-white">
               <span className="block bg-[#121212] rounded-full px-5 py-2">
                 Hire Me
               </span>
             </button>
-            <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-b from-[#d5af8b] via-[#ed5675] to-[#502540] hover:drop-shadow-[0_2px_20px_rgba(88,33,65,0.80)] text-white mt-3">
+            <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-b from-FIRST_COLOR via-SECOND_COLOR to-THIRD_COLOR hover:drop-shadow-[0_1px_20px_rgba(176,108,169,0.80)] text-white mt-3">
               <span className="block bg-[#121212] rounded-full px-5 py-2">
                 Download CV
               </span>
@@ -44,7 +44,7 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-8 lg:mt-0">
-          <div className="rounded-full position-relative w-[250px] h-[250px] sm:w-[220px] sm:h-[220px] lg:w-[400px] lg:h-[400px] bg-gradient-to-b from-[#d5af8b] via-[#ed5675] to-[#502540] px-2 py-2">
+          <div className="rounded-full position-relative w-[250px] h-[250px] sm:w-[220px] sm:h-[220px] lg:w-[400px] lg:h-[400px] bg-gradient-to-b from-FIRST_COLOR via-SECOND_COLOR to-THIRD_COLOR px-2 py-2">
             <Image
               src="/images/hero-image.png"
               alt="hero image"

@@ -26,7 +26,7 @@ const Navbar = () => {
     <nav className=" fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-95">
       <div className="flex flex-wrap items-center justify-between mx-auto px-8 md:px-16 py-2">
         <Link href={"/"} className="text-5xl font-bold m-2">
-          <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#d5af8b] via-[#ed5675] to-[#502540]">
+          <span className="text-transparent bg-clip-text bg-gradient-to-b from-FIRST_COLOR via-SECOND_COLOR to-THIRD_COLOR">
             MV
           </span>
         </Link>

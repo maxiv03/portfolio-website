@@ -57,7 +57,7 @@ const AboutSection = () => {
         <Image className="relative" src="/images/about-image.png" width={550} height={550} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-extrabold mb-4">
-              <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#d5af8b] via-[#ed5675] to-[#502540]">
+              <span className="text-transparent bg-clip-text bg-gradient-to-br from-FIRST_COLOR via-SECOND_COLOR to-THIRD_COLOR">
                 About Me
               </span>
           </h2>

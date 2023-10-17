@@ -52,11 +52,11 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white">
+    <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 py-8 xl:gap-16 sm:py-16">
         <Image className="relative" src="/images/about-image.png" width={550} height={550} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-extrabold mb-4">
+          <h2 className="text-4xl xl:text-5xl font-extrabold mb-4">
               <span className="text-transparent bg-clip-text bg-gradient-to-br from-FIRST_COLOR via-SECOND_COLOR to-THIRD_COLOR">
                 About Me
               </span>
@@ -68,7 +68,7 @@ const AboutSection = () => {
           In dui nisi, eleifend vitae orci ut, euismod vulputate nibh. 
           Curabitur pretium volutpat turpis, finibus dapibus magna auctor eu.
           </p>
-          <div className="flex flex-row justify-start mt-8">
+          <div className="flex xl:text-2xl flex-row justify-start mt-8">
             <TabButton 
               selectTab={() => handleTabChange("skills")} 
               active={tab === "skills"}
@@ -91,7 +91,7 @@ const AboutSection = () => {
                 Certifications{" "} 
             </TabButton>
           </div>
-          <div className=" flex flex-col mt-4">
+          <div className=" flex flex-col xl:text-lg mt-4">
             {TAB_DATA.find((t) => t.id === tab).content}
           </div>
         </div>

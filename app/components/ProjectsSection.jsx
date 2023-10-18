@@ -25,7 +25,7 @@ const projectsData = [
 const ProjectsSection = () => {
   return (
     <section id="projects">
-      <h2 className="lg:text-center text-4xl xl:text-5xl font-extrabold mt-4 mb-8 md:mb-12">
+      <h2 className="text-center text-4xl xl:text-5xl font-extrabold mt-4 mb-8 md:mb-12">
               <span className="text-transparent bg-clip-text bg-gradient-to-br from-FIRST_COLOR via-SECOND_COLOR to-THIRD_COLOR">
               My Projects
               </span>

@@ -30,7 +30,7 @@ const ProjectsSection = () => {
               My Projects
               </span>
           </h2>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8 md:gap-12">
+      <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-12">
         {projectsData.map((project) => (
           <ProjectCard 
             key={project.id}

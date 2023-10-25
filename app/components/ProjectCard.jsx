@@ -30,23 +30,23 @@ const ProjectCard = ({imgUrl, title, description, gitUrl, previewUrl}) => {
       </div>
 
       {/* BracketIcon and EyeIcon displayed only on small screens */}
-      <div className="flex items-center justify-evenly py-2 group lg:hidden">
+      <div className="flex items-center justify-evenly py-2 group xl:hidden">
         <Link 
           href={gitUrl}
-          className="h-10 w-10 border-2 rounded-full border-[#ADB7BE] flex items-center justify-center hover:border-white active:border-white group/link"
+          className="h-7 w-7 border-2 rounded-full border-[#ADB7BE] flex items-center justify-center hover:border-white active:border-white group/link"
         >
-          <CodeBracketIcon className="h-7 w-7 text-[#ADB7BE] cursor-pointer group-hover/link:text-white group-active/link:text-white"/>
+          <CodeBracketIcon className="h-5 w-5 text-[#ADB7BE] cursor-pointer group-hover/link:text-white group-active/link:text-white"/>
         </Link>
 
         <Link
           href={previewUrl}
-          className="h-10 w-10 border-2 rounded-full border-[#ADB7BE] flex items-center justify-center hover:border-white active:border-white group/link"
+          className="h-7 w-7 border-2 rounded-full border-[#ADB7BE] flex items-center justify-center hover:border-white active:border-white group/link"
         >
-          <EyeIcon className="h-7 w-7 text-[#ADB7BE] cursor-pointer group-hover/link:text-white group-active/link:text-white" />
+          <EyeIcon className="h-5 w-5 text-[#ADB7BE] cursor-pointer group-hover/link:text-white group-active/link:text-white" />
         </Link>
       </div>
 
-      <div className="h-38 md:h-44 lg:h-48 rounded-b-xl border-2 border-THIRD_COLOR lg:mt-3 bg-[#181818] py-6 px-4">
+      <div className="h-38 md:h-44 lg:h-48 rounded-b-xl border-2 border-THIRD_COLOR xl:mt-3 bg-[#181818] py-6 px-4">
         <h5 className="text-white text-xl lg:text-2xl xl:text-3xl font-semibold mb-2">
           {title}
         </h5>

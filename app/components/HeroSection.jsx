@@ -8,7 +8,7 @@ const HeroSection = () => {
     <section>
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <div className="col-span-7 place-self-center text-center sm:text-left">
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
+          <h1 className="text-white mb-4 text-5xl lg:text-6xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-b from-FIRST_COLOR via-SECOND_COLOR to-THIRD_COLOR">
               Hello, I'm{" "}
             </span>
@@ -47,7 +47,7 @@ const HeroSection = () => {
           <div className="rounded-full position-relative w-[250px] h-[250px] sm:w-[220px] sm:h-[220px] lg:w-[400px] lg:h-[400px] bg-gradient-to-b from-FIRST_COLOR via-SECOND_COLOR to-THIRD_COLOR px-2 py-2">
             <Image
               src="/images/hero-image.png"
-              alt="hero image"
+              alt="Picture of myself"
               width={0}
               height={0}
               sizes="100vw"

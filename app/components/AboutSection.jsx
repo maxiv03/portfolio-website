@@ -54,7 +54,13 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 py-8 xl:gap-16 sm:py-16">
-        <Image className="relative" src="/images/about-image.png" width={550} height={550} />
+        <Image
+          className="relative"
+          alt="Sunset Glitch 03"
+          src="/images/about-image.png" 
+          width={550} 
+          height={550} 
+        />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-center md:text-left text-4xl xl:text-5xl font-extrabold mb-4">
               <span className="text-transparent bg-clip-text bg-gradient-to-br from-FIRST_COLOR via-SECOND_COLOR to-THIRD_COLOR">

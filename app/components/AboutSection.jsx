@@ -33,7 +33,7 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc list-inside pl-2">
-        <li>Ceibal's Graduation Curriculum</li>
+        <li>Ceibal&apos;s Graduation Curriculum</li>
         <li>Frontend Development Hands-on Training Program</li>
         <li>Front End Development Libraries</li>
       </ul>

@@ -14,6 +14,7 @@ const ProjectCard = ({imgUrl, title, description, gitUrl, previewUrl}) => {
         <div className="overlay absolute rounded-t-xl items-center justify-center top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden lg:group-hover:flex lg:group-hover:bg-opacity-70 lg:transition-all lg:duration-500">
           <Link 
             href={gitUrl}
+            target="_blank"
             className="h-14 w-14 mr-2 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
           >
             <CodeBracketIcon className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer group-hover/link:text-white"/>
@@ -21,6 +22,7 @@ const ProjectCard = ({imgUrl, title, description, gitUrl, previewUrl}) => {
 
           <Link
             href={previewUrl}
+            target="_blank"
             className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
           >
             <EyeIcon className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
@@ -33,6 +35,7 @@ const ProjectCard = ({imgUrl, title, description, gitUrl, previewUrl}) => {
       <div className="flex items-center justify-evenly py-2 group xl:hidden">
         <Link 
           href={gitUrl}
+          target="_blank"
           className="h-7 w-7 border-2 rounded-full border-[#ADB7BE] flex items-center justify-center hover:border-white active:border-white group/link"
         >
           <CodeBracketIcon className="h-5 w-5 text-[#ADB7BE] cursor-pointer group-hover/link:text-white group-active/link:text-white"/>
@@ -40,6 +43,7 @@ const ProjectCard = ({imgUrl, title, description, gitUrl, previewUrl}) => {
 
         <Link
           href={previewUrl}
+          target="_blank"
           className="h-7 w-7 border-2 rounded-full border-[#ADB7BE] flex items-center justify-center hover:border-white active:border-white group/link"
         >
           <EyeIcon className="h-5 w-5 text-[#ADB7BE] cursor-pointer group-hover/link:text-white group-active/link:text-white" />

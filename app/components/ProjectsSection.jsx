@@ -8,17 +8,17 @@ const projectsData = [
     description: "Created with NextJS and Tailwind with a palette of colors that I chose from an artwork that I made.",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/"
+    gitUrl: "https://github.com/maxiv03/portfolio-website",
+    previewUrl: "https://portfolio-website-psi-flame.vercel.app/"
   },
   {
     id: 2,
     title: "E-commerce Application",
-    description: "My first project. Created with JavaScript, HTML, and Bootstrap.",
+    description: "My first project. Created with JavaScript, HTML, and Bootstrap. Log in with any fictional mail and pass.",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/"
+    gitUrl: "https://github.com/maxiv03/proyecto-e_commerce",
+    previewUrl: "https://maxiv03.github.io/proyecto-e_commerce/index.html"
   }
 ]
 

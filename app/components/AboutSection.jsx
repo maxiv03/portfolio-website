@@ -68,11 +68,12 @@ const AboutSection = () => {
               </span>
           </h2>
           <p className="text-base lg:text-lg">
-          Morbi tincidunt, felis at mattis commodo, 
-          nisi ipsum lacinia nulla, quis lacinia leo est ac neque. 
-          Duis mauris nibh, congue quis ante in, rutrum cursus sapien. 
-          In dui nisi, eleifend vitae orci ut, euismod vulputate nibh. 
-          Curabitur pretium volutpat turpis, finibus dapibus magna auctor eu.
+            I am a proactive person, an excellent teammate, organized 
+            and responsible. I have felt a deep
+            passion for computer technology since I was a child. 
+            I greatly enjoy learning new things, so my
+            current goal is to find a challenging and dynamic position where 
+            I can share my experience while also gaining new knowledge.
           </p>
           <div className="flex xl:text-2xl flex-row justify-start mt-8">
             <TabButton 

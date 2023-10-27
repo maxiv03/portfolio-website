@@ -31,12 +31,12 @@ const HeroSection = () => {
             I have a strong foundation in HTML, CSS, and JavaScript, and I enjoy creating captivating user interfaces that bring designs to life.
           </p>
           <div>
-            <button className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-b from-FIRST_COLOR via-SECOND_COLOR to-THIRD_COLOR hover:drop-shadow-[0_1px_20px_rgba(176,108,169,0.80)] text-white">
+            <button className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-b from-FIRST_COLOR via-SECOND_COLOR to-THIRD_COLOR hover:drop-shadow-[0_1px_20px_rgba(176,108,169,0.80)] active:drop-shadow-[0_1px_20px_rgba(176,108,169,0.80)] text-white">
               <span className="block bg-[#121212] rounded-full px-5 py-2">
                 Hire Me
               </span>
             </button>
-            <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-b from-FIRST_COLOR via-SECOND_COLOR to-THIRD_COLOR hover:drop-shadow-[0_1px_20px_rgba(176,108,169,0.80)] text-white mt-3">
+            <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-b from-FIRST_COLOR via-SECOND_COLOR to-THIRD_COLOR hover:drop-shadow-[0_1px_20px_rgba(176,108,169,0.80)] active:drop-shadow-[0_1px_20px_rgba(176,108,169,0.80)] text-white mt-3">
               <span className="block bg-[#121212] rounded-full px-5 py-2">
                 Download CV
               </span>

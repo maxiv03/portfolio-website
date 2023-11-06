@@ -9,11 +9,12 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc list-inside pl-2">
-        <li>JavaScript</li>
         <li>HTML5</li>
-        <li>CSS</li>
-        <li>Tailwind</li>
+        <li>JavaScript</li>
         <li>React</li>
+        <li>CSS</li>
+        <li>Bootstrap</li>
+        <li>Tailwind</li>
       </ul>
     )
   },
@@ -22,6 +23,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc list-inside pl-2">
+        <li>La gran fábrica de ideas</li>
         <li>Jóvenes a programar, Ceibal</li>
         <li>Kreativstorm</li>
         <li>FREECODECAMP</li>
@@ -33,9 +35,10 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc list-inside pl-2">
+        <li>140 hours of training in Conflict Management, Negotiation, Communication and Strategic Thinking.</li>
         <li>Ceibal&apos;s Graduation Curriculum</li>
         <li>Frontend Development Hands-on Training Program</li>
-        <li>Front End Development Libraries</li>
+        <li>Front End Development Libraries - In progress</li>
       </ul>
     )
   }

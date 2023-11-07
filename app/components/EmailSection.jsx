@@ -36,7 +36,7 @@ const EmailSection = () => {
   };
 
   return (
-    <section className="grid md:grid-cols-2 my-4 py-24 gap-4 relative">
+    <section id="contact" className="grid md:grid-cols-2 my-4 py-24 gap-4 relative">
       <div>
         <h3 className="text-3xl xl:text-5xl font-bold mb-2">
           <span className="text-transparent bg-clip-text bg-gradient-to-br from-FIRST_COLOR via-SECOND_COLOR to-THIRD_COLOR">

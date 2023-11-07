@@ -1,6 +1,7 @@
 "use client"
 import React from 'react';
 import Image from "next/image";
+import Link from 'next/link'
 import { TypeAnimation } from 'react-type-animation';
 
 const HeroSection = () => {
@@ -37,9 +38,14 @@ const HeroSection = () => {
               </span>
             </button>
             <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-b from-FIRST_COLOR via-SECOND_COLOR to-THIRD_COLOR hover:drop-shadow-[0_1px_20px_rgba(176,108,169,0.80)] active:drop-shadow-[0_1px_20px_rgba(176,108,169,0.80)] text-white mt-3">
-              <span className="block bg-[#121212] rounded-full px-5 py-2">
-                Download CV
-              </span>
+              <Link
+                href="https://drive.google.com/uc?id=1jzQf0SktMQV-LtFQoV9gGMHZF_Zlnmok&export=download"
+                download
+              >
+                <span className="block bg-[#121212] rounded-full px-5 py-2">
+                  Download CV
+                </span>
+              </Link>
             </button>
           </div>
         </div>

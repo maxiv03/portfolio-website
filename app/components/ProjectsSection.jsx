@@ -9,7 +9,7 @@ const projectsData = [
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/maxiv03/portfolio-website",
-    previewUrl: "https://portfolio-website-psi-flame.vercel.app/"
+    previewUrl: "https://maximilianovega.com/"
   },
   {
     id: 2,
